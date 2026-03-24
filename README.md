@@ -1,6 +1,6 @@
 # ZhouYu Skills
 
-语音合成技能集合，为 Claude Code 提供文本转语音能力。
+语音合成技能集合，为 AI Agent 提供文本转语音能力。
 
 ## 包含技能
 
@@ -39,7 +39,7 @@ python3 scripts/tts_batch.py \
 
 ## 技能使用方式
 
-在 Claude Code 中，可以通过以下方式使用技能：
+在 AI Agent 中，可以通过以下方式使用技能：
 
 - "用豆包TTS把这段文字转成语音：你好世界"
 - "把这个脚本转成音频，保存到 output.mp3"
@@ -52,23 +52,6 @@ python3 scripts/tts_batch.py \
 1. 访问 [火山引擎控制台](https://console.volcengine.com/)
 2. 开通语音技术服务
 3. 获取 APP ID 和 Access Token
-
-## 项目结构
-
-```
-zhouyu-skills/
-├── README.md
-└── skills/
-    └── doubao-tts/
-        ├── SKILL.md           # 技能详细文档
-        ├── requirements.txt   # Python 依赖
-        ├── scripts/
-        │   ├── tts_single.py  # 单文本生成
-        │   └── tts_batch.py   # 批量生成
-        └── lib/
-            ├── __init__.py
-            └── protocols.py   # WebSocket 协议实现
-```
 
 ## 许可证
 
